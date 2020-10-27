@@ -4,15 +4,16 @@ Ferramenta usada para tirar métricas de qualidade de repositórios no GitHub.
 
 ## Instalação
 
-Para que a aplicação rode corretamente, é necessário ter um **MySQL** na **porta 3306**.
+Para que a aplicação rode corretamente, é necessário ter um **MySQL** na **porta 3306** com usuário **root** e senha **pass**.
 
 O código foi escrito usando **IntelliJ Community** na **JDK 12.0.2**.
 
 ## Execução
+O primeiro passo para testar as execuções é colocar as credenciais válidas de um usuário do GitHub no `application.properties`, possibilitando que a comunicação com a API do GitHub seja autenticada.
 
 Para executar testes nessa aplicação, é necessário ter agente para conversar com a API (por exemplo [Postman](https://www.postman.com)).
 
-Para facilitar a realização dos mesmo, está disponibilizado um Environment do Postman com os Endpoints implementados. São eles:
+As chamadas dos endpoints são as seguintes:
 
 ### [POST] http://localhost:8080/repositories
 
