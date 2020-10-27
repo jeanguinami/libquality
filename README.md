@@ -24,11 +24,13 @@ Para facilitar a realização dos mesmo, está disponibilizado um Environment do
 }
 ```
 >VAR1 equivale ao nome que o usuário deseja que o repositório tenha na aplicação.
+
 >VAR2 equivale a parte da URL que identifica o repositório, como por exemplo:
 >Na URL https://github.com/facebook/react, é usado o **facebook/react**.
 
 ### [GET] http://localhost:8080/repositories/name/VAR1
 >Este endpoint procura e retorna uma entidade de repositório dentro do banco de dados da aplicação, com a sua devida informação de qualidade.
+
 >VAR1 equivale ao nome cadastrado anteriormente para o repositório desejado.
 
 ### [GET] http://localhost:8080/repositories
